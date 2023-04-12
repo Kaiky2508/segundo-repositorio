@@ -1,1 +1,5 @@
-body {background-color: blue;}
+body{background-color: black;}
+header {
+    background-color: #424E61;
+    color: white;
+}
