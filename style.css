@@ -27,3 +27,25 @@ body{
     font-size: 24;
 
 }
+
+.secao1{
+    background-image: linear-gradient(#424E61,#16CFF8);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.secao1-titulo{
+
+}
+
+.secao1-imagem{
+    width: 25%;
+}
+
+.secao1-div-conteudo{
+    width: 35%;
+
+}
