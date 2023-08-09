@@ -1,20 +1,11 @@
 @import url(/styles/header.css);
 
 :root{
-
     --cor-principal: blue;
     --cor-secundaria: lightgray;
     --cor-terciaria: darkgray;
     --cor-de-escrita: black;
-
-
-
 }
-
-
-
-
-
 
 * {
     margin: 0;
@@ -22,9 +13,8 @@
 }
 
 body{
-    background-color: white;
+    background-color: darkgray;
     font-family: 'Signika Negative', sans-serif;
-
 }
 
 .cabecalho{
@@ -37,7 +27,7 @@ body{
 
 .cabecalho-imagem{
     width: 20%;
-   
+
 }
 
 .cabecalho-lista-item{
@@ -45,7 +35,6 @@ body{
     margin: 0 16;
     padding: 24 0;
     font-size: 24;
-
 }
 
 .secao1{
@@ -67,22 +56,18 @@ body{
 
 .secao1-div-conteudo{
     width: 35%;
-
 }
 
 .nome-img {
     width: 120px;
-
 }
 
 .div-apresentacao{
     text-align:  center;
     padding: 16px 0;
-
 }
 
 .icon-redes{
     width: 24px;
     padding: 4 px 8px;
-
 }
