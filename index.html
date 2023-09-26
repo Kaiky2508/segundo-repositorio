@@ -9,15 +9,14 @@
 
   <link rel="stylesheet" href="reset.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;500&display=swap" rel="stylesheet">
 
 
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 
 </head>
-
 
 <body>
   <header class="cabecalho">
@@ -29,20 +28,50 @@
 
       <ul class="cabecalho-lista">
         <li class="cabecalho-lista-titulo">Opçoes</li>
-        <li class="cabecalho-lista-item"><a clasa="menu__lista-item" href="#">Agendamentos</a></li>
+        <li class="cabecalho-lista-item"><a class="menu__lista-item" href="#">Agendamentos</a></li>
         <li class="cabecalho-lista-item"><a class="menu__lista-item" href="#">Feedback</a></li>
         <li class="cabecalho-lista-item"><a class="menu__lista-item" href="#">Contatos</a></li>
       </ul>
 
       <img class="cabecalho-imagem cabecalho__imagem" src="./img/BARBER DON' LA BARBA.png" alt="Logo BARBER DON' LA BARBA">
       <h1 class="container-titulo">BARBER DON' LA BARBA </h1>
+    </div>
 
+    <ul class="opçoes">
+      <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
+      <label for="opcoes-menu">
+        <li class="opcoes__item">categorias</li>
+      </label>
 
-    </div class="container">
+      </ul class="cabecalho-lista">
+        <li class="cabecalho-lista-item">
+          <a href="#" class="menu__lista-item">opçao 1</a>
+        </li>
+        <li class="cabecalho-lista-item">
+          <a href="#" class="menu__lista-item">opção 2</a>
+        </li>
+        <li class="cabecalho-lista-item">
+          <a href="#" class="menu__lista-item">opção 3</a>
+        </li>
+      </ul>
 
-    <a href=""><img class="cabecalho-imagem" src="img/telefone.png" alt="Contato"></a>
-    <a href=""><img class="cabecalho-imagem cabecalho__favorito" src="img/favorito.png" alt="Favorito"></a>
-    <a href=""><img src="img/hamburger.png" alt="Menu"></a>
+        <li class="opcoes__item"><a href="#" class="opcoes__link">Agendamentos</a></li>
+        <li class="opcoes__item"><a href="#" class="opcoes__link">Feedback</a></li>
+        <li class="opcoes__item"><a href="#" class="opcoes__link">Contatos</a></li>
+    </ul>
+
+    <div class="container">
+       <a href="#" class="container__link">
+        <img class="cabecalho-imagem cabecalho__favorito" src="img/favorito.png" alt="Favorito"></a>
+            <p class="container__texto">meus favoritos</p>
+         <a href="#">
+          <img class="cabecalho-imagem" src="img/telefone.png" alt="Contato"></a>
+            <p class="container__texto">fale conosco</p>
+        <a href="#" class="container__link">
+          <img src="img/hamburger.png" alt="Menu"></a>
+            <p class="container__texto">menu</p>
+    </div>
+  
   </header>
 
   <section class=”secao1”>
