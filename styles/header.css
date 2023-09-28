@@ -79,10 +79,10 @@
     display: none;
 }
 
-@media screen and (min-width: 1024px){
-    .container__titulo{
+@media screen and (min-width: 1024px) {
+    .container-titulo{
         display: block;
-        font-family: : var(--fonte-principal);
+        font-family: var(--fonte-principal);
         font-weight: 400;
         font-size: 30px;
     }
@@ -107,6 +107,15 @@
 
     .opcoes__link{
         text-decoration: none;
-        
+        color: var(--branco);
+    }
+
+    .opcoes__botao:checked ~.cabecalho-lista{
+        display: block;
+        width: auto;
+    }
+
+    .opcoes__botao{
+        display: none;
     }
 }

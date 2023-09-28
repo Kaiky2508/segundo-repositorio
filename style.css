@@ -5,10 +5,10 @@
     --cor-secundaria: lightgray;
     --cor-terciaria: darkgray;
     --cor-quartaria: lightblue;
-    --cor-quintaria; darkblue;
+    --cor-quintaria: darkblue;
     --cor-de-escrita: black;
-    --fonte-principal: "Signika Negative"
-    --fonte-secundaria: "Signika Negative"
+    --fonte-principal: "Signika Negative";
+    --fonte-secundaria: "Signika Negative";
 }
 
 * {
