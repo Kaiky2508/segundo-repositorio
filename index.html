@@ -9,9 +9,9 @@
 <body>
 
     <header>
+        <img src="img/BARBER DON' LA BARBA.png" alt="Barbearia Don' La Barba Logo">
         <h1>Barbearia Don' La Barba</h1>
         <p>Sua barba, nossa paixão!</p>
-        <img class="logo" src="./img/BARBER DON' LA BARBA.png" alt="Logo BARBER DON' LA BARBA">
     </header>
 
     <nav>
@@ -19,35 +19,64 @@
             <li><a href="#sobre">Sobre Nós</a></li>
             <li><a href="#servicos">Serviços</a></li>
             <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#depoimentos">Depoimentos</a></li>
             <li><a href="#contato">Contato</a></li>
-            <li><a href="#agendamentos">Agendamentos</a></li>
         </ul>
     </nav>
 
     <section id="sobre">
         <h2>Sobre Nós</h2>
         <p>Bem-vindo à Barbearia Don' La Barba, onde cuidamos da sua barba com paixão e expertise.</p>
+        <img src="barbearia-interior.jpg" alt="Interior da Barbearia XYZ">
     </section>
 
     <section id="servicos">
         <h2>Nossos Serviços</h2>
         <ul>
-          <li>Corte de Cabelo</li>
-          <li>Barba Tradicional</li>
-          <li>Design de Barba</li>
+            <li>Corte de Cabelo</li>
+            <li>Barba Tradicional</li>
+            <li>Design de Barba</li>
             <!-- Adicione mais serviços conforme necessário -->
         </ul>
+        <img src="barba-tradicional.jpg" alt="Barba Tradicional">
     </section>
 
     <section id="portfolio">
         <h2>Portfólio</h2>
-        <!-- Adicione imagens ou informações sobre trabalhos anteriores -->
+        <div class="portfolio">
+            <div class="portfolio-item">
+                <img src="corte-cabelo.jpg" alt="Corte de Cabelo">
+                <p>Um dos nossos cortes de cabelo exclusivos.</p>
+            </div>
+            <!-- Adicione mais itens ao portfólio conforme necessário -->
+        </div>
+    </section>
+
+    <section id="depoimentos">
+        <h2>Depoimentos</h2>
+        <div class="depoimento">
+            <img src="cliente1.jpg" alt="Cliente 1">
+            <p>"A Barbearia Don' La Barba é incrível! Sempre saio satisfeito com o serviço."</p>
+            <p>- Cliente Satisfeito 1</p>
+        </div>
+        <!-- Adicione mais depoimentos conforme necessário -->
     </section>
 
     <section id="contato">
         <h2>Entre em Contato</h2>
         <p>Agende seu horário e venha nos visitar!</p>
-        (xx) xxxxx-xxxx
+        <form action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+            <button type="submit">Enviar Mensagem</button>
+        </form>
     </section>
 
     <footer>
